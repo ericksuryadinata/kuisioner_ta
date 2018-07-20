@@ -1,0 +1,21 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=7.1",
+		"codeigniter/framework": "3.1.*",
+		"vlucas/phpdotenv": "^2.4",
+		"philo/laravel-blade": "^3.1",
+		"luthier/luthier": "^0.2.1",
+		"nesbot/carbon": "^1.29"
+	},
+	"autoload": {
+        "classmap": [
+            "application/core",
+            "application/models",
+            "application/libraries"
+        ]
+    },
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*"
+	}
+}
